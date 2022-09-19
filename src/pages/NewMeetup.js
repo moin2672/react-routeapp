@@ -1,8 +1,11 @@
+import NewMeetupForm from "../component/meetups/NewMeetupForm"
+
 function NewMeetupPage(){
     return(
-        <div>
-            New Meetup Page
-        </div>
+        <section>
+            <h1>Add New Meetup</h1>
+            <NewMeetupForm/>
+        </section>
     )
 }
 
